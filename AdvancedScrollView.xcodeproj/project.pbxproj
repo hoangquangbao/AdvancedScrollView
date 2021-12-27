@@ -14,6 +14,8 @@
 		06A0174327797236000D61A1 /* AdvancedScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0174227797236000D61A1 /* AdvancedScrollViewTests.swift */; };
 		06A0174D27797236000D61A1 /* AdvancedScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0174C27797236000D61A1 /* AdvancedScrollViewUITests.swift */; };
 		06A0174F27797236000D61A1 /* AdvancedScrollViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0174E27797236000D61A1 /* AdvancedScrollViewUITestsLaunchTests.swift */; };
+		06A0175E27799CB1000D61A1 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0175D27799CB1000D61A1 /* Link.swift */; };
+		06A017602779A0F6000D61A1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A0175F2779A0F6000D61A1 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		06A0174827797236000D61A1 /* AdvancedScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A0174C27797236000D61A1 /* AdvancedScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedScrollViewUITests.swift; sourceTree = "<group>"; };
 		06A0174E27797236000D61A1 /* AdvancedScrollViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedScrollViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06A0175D27799CB1000D61A1 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		06A0175F2779A0F6000D61A1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		06A0173027797234000D61A1 /* AdvancedScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				06A0175C27799C9E000D61A1 /* Model */,
+				06A0175B27799C98000D61A1 /* View */,
 				06A0173127797234000D61A1 /* AdvancedScrollViewApp.swift */,
 				06A0173327797234000D61A1 /* ContentView.swift */,
 				06A0173527797235000D61A1 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				06A0174E27797236000D61A1 /* AdvancedScrollViewUITestsLaunchTests.swift */,
 			);
 			path = AdvancedScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		06A0175B27799C98000D61A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06A0175F2779A0F6000D61A1 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06A0175C27799C9E000D61A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06A0175D27799CB1000D61A1 /* Link.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A0175E27799CB1000D61A1 /* Link.swift in Sources */,
 				06A0173427797234000D61A1 /* ContentView.swift in Sources */,
+				06A017602779A0F6000D61A1 /* Home.swift in Sources */,
 				06A0173227797234000D61A1 /* AdvancedScrollViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
