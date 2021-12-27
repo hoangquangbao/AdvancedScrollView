@@ -16,7 +16,7 @@ struct Home: View {
             
             ScrollContent()
             .padding(.top, getRect().height / 3)
-            .padding(.bottom, CGFloat(links.count - 1) * 80)
+            .padding(.bottom, CGFloat(links.count - 1) * 100)
             .overlay(
 
                 GeometryReader{_ in
@@ -100,7 +100,6 @@ class ScrollViewDelegate: NSObject, ObservableObject, UIScrollViewDelegate{
     
     //MARK: Offset can also be fetched here
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(scrollView.contentOffset.y)
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
