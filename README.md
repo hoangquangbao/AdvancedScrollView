@@ -1,2 +1,4 @@
 # AdvancedScrollView
-<img src="https://user-images.githubusercontent.com/66858640/147489155-c39a9919-0436-4dee-a6e7-7c2b28f10344.png" width="300">
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/66858640/147817269-64544309-e887-40f4-8196-7e8abd62f8ba.gif)
+
